@@ -139,13 +139,13 @@ If you would like to know more about our method, you can watch this presentation
     ```
 ### Execution
 
-1. **Preprocessing ** 
+1. **Preprocessing**  
         `python ./src/preprocessing.py`
 
-2. **Train**  
+2. **Train**    
         `python ./src/train.py`
 
-3. **Inference** 
+3. **Inference**  
         `python ./src/inference.py`
 
 ## Lincense
