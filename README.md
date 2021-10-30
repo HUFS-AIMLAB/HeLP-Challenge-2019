@@ -107,7 +107,7 @@ If you would like to know more about our method, you can watch this presentation
 
 ### Installation
 
-1. **Using local environment:** 
+- **Using local environment:** 
     ```bash
     
     # Setup virtual environment using conda or something else
@@ -120,7 +120,7 @@ If you would like to know more about our method, you can watch this presentation
     pip install -r requirements.txt
 
     ```
-2. **Using docker:**  
+-  **Using docker:**  
 
     build docker image
     ```bash
