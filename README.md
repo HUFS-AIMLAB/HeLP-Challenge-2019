@@ -76,11 +76,11 @@ According to the challenge rules, all code execution was performed on a cloud ba
 
     - model ensemble  
 
-If you would like to know more about our method, you can watch this presentation (see below).
-
 <div align="center">
   <a href="https://www.youtube.com/watch?v=v1XVpkY08gc"><img src="./img/img2.png" width=420 alt="IMAGE ALT TEXT"></a>
 </div>
+
+If you would like to know more about our method, you can watch this presentation.
 
 ## Results
 
