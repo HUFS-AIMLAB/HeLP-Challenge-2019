@@ -14,37 +14,44 @@ Team Members:
 
 ## Tasks
 
-Analyze the whole-body trauma CT scans with and without three major traumatic findings – **Hemothorax, Pneumothorax, and Hemoperitoneum.**
+Analyze the whole-body trauma CT scans with and without three major traumatic findings  
+– **Hemothorax, Pneumothorax, and Hemoperitoneum.**
 
 1. Classification of patients with or without lesions for each of the traumatic lesions.
 2. Classification of slices with or without lesions for each of the traumatic lesions.
 3. Detection of each of the three major traumatic lesions.
 
 ## Data description
+- whole-body trauma CT scans
+- label 1 for Hemothorax, 2 for Pneumothorax, 3 for Hemoperitoneum, 0 for background  
 
 According to the challenge rules, all code execution was performed on a cloud based system.
 
-```
-data
-  ├── train
-  │     ├──img
-  │     │   ├── WBCT_0001.img
-  │     │   ├── WBCT_0002.img
-  │     │   └── ...
-  │     └──groundtruth
-  │         ├── WBCT_0001.img
-  │         ├── WBCT_0002.img
-  │         └── ...
-  ├── test
-  │     ├── WBCT_0453.img
-  │     ├── WBCT_0454.img
-  │     └── ...
-  ├── output
-  └── volume
-```
+<details>
+<summary>Data structure</summary>
+<p>
 
-- whole-body trauma CT scans
-- label: 1 for Hemothorax, 2 for Pneumothorax, 3 for Hemoperitoneum, 0 for background
+
+    ```bash
+    data
+    ├── train
+    │     ├──img
+    │     │   ├── WBCT_0001.img
+    │     │   ├── WBCT_0002.img
+    │     │   └── ...
+    │     └──groundtruth
+    │         ├── WBCT_0001.img
+    │         ├── WBCT_0002.img
+    │         └── ...
+    ├── test
+    │     ├── WBCT_0453.img
+    │     ├── WBCT_0454.img
+    │     └── ...
+    ├── output
+    └── volume
+    ```
+</p>
+</details>
 
 <div align="center">
   <img src="./img/img1.png" width=530>
