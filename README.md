@@ -51,21 +51,22 @@ data
 </div>
 
 ## Methods
-- Pre-processing
+
+- **Pre-processing**
+
     - Remove CT plate
     - Intensity normalization using CT windowing
     - Use random data augmentation to handle data imbalance
-- Deep learning model
-    -  U-net with a pre-trained Resnet34 as encoder
-        ```
-        
-        optimization method: Adam
-        batch size: 8
-        Learning rate:1e-5 ~ 1e-4, 1e-4/400 ~ 1e-4/4
-        epochs: 10
-        loss function: Weighted Cross entropy
 
-        ```
+
+- **Deep learning model**
+    -  U-net with a pre-trained Resnet34 as encoder
+        - optimization method: Adam
+        - batch size: 8
+        - Learning rate:1e-5 ~ 1e-4, 1e-4/400 ~ 1e-4/4
+        - epochs: 10
+        - loss function: Weighted Cross entropy
+
     - model ensemble  
 
 If you would like to know more about our method, you can watch this presentation (see below).
