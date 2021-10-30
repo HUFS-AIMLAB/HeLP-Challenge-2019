@@ -58,11 +58,13 @@ data
 - Deep learning model
     -  U-net with a pre-trained Resnet34 as encoder
         ```
+        
         optimization method: Adam
         batch size: 8
         Learning rate:1e-5 ~ 1e-4, 1e-4/400 ~ 1e-4/4
         epochs: 10
         loss function: Weighted Cross entropy
+
         ```
     - model ensemble  
 
@@ -99,6 +101,7 @@ If you would like to know more about our method, you can watch this presentation
 
 1. **Using local environment:** 
     ```bash
+    
     # Setup virtual environment using conda or something else
     conda create -n hc 
     conda activate hc
@@ -107,14 +110,18 @@ If you would like to know more about our method, you can watch this presentation
     git clone https://github.com/HUFS-AIMLAB/HeLP-Challenge-2019.git
     cd HeLP-Challenge-2019/src
     pip install -r requirements.txt
+
     ```
 2. **Using docker:**  
+
     build docker image
     ```bash
+    
     # Clone repository
     git clone https://github.com/HUFS-AIMLAB/HeLP-Challenge-2019.git
     cd HeLP-Challenge-2019/submit_format
     ./build-1.2-cuda10.0-cudnn7-runtime.sh
+
     ```
     
     or you can pull docker image from Docker Hub.
@@ -130,7 +137,7 @@ If you would like to know more about our method, you can watch this presentation
 2. Train   
         `python ./src/train.py`
 
-3. Inference 
+3. Inference  
         `python ./src/inference.py`
 
 ## Lincense
@@ -139,4 +146,4 @@ This repository is licensed under the MIT License.
 
 ## Acknoweldgment
 
-This repository referenced [fastai's tutorial notebook](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson3-camvid.ipynb) template.
+This repository referenced from [fastai's tutorial notebook](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson3-camvid.ipynb) template.
