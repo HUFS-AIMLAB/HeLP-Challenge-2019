@@ -2,7 +2,7 @@
     <p>HeLP Challenge 2019</p>
 </h1>
 
-This work is 1st place solution to [HeLP Challenge 2019 in Traumatic lesion classification and detection category](https://www.synapse.org/#!Synapse:syn21034537/wiki/)  organized by Asan Medical Center.
+This work is **1st place** solution to [HeLP Challenge 2019 in Traumatic lesion classification and detection category](https://www.synapse.org/#!Synapse:syn21034537/wiki/)  organized by Asan Medical Center.
 
 
 Team Members:  
