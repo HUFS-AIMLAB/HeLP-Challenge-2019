@@ -32,7 +32,7 @@ According to the challenge rules, all code execution was performed on a cloud ba
 <p>
 
 
-    ```bash
+    
     data
     ├── train
     │     ├──img
@@ -49,7 +49,7 @@ According to the challenge rules, all code execution was performed on a cloud ba
     │     └── ...
     ├── output
     └── volume
-    ```
+   
 </p>
 </details>
 
